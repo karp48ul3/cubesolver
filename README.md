@@ -22,17 +22,17 @@ Parameters to  int* solvecube(int*) function is now int[54] array (values from 0
 This function returns pointer to array with rotations represented by int elements.
 
 The rotations correspond to following int values:
-U : 6
-R : 3
-F : 9
-D : -4
-L : -1
-B : -7
-U' : -6
-R' : -3
-F' : -9
-D' : 4
-L' : 1
+U : 6,
+R : 3,
+F : 9,
+D : -4,
+L : -1,
+B : -7,
+U' : -6,
+R' : -3,
+F' : -9,
+D' : 4,
+L' : 1,
 B' : 7
 For U2, R2, F2, D2, L2, B2 moves, they now become two moves i.e. U2 becomes U,U.
 
