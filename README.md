@@ -1,6 +1,7 @@
 # rubikssolver
 
-This rubik's cube solver is a Rubik's Cube Solver that solves any valid colouring of a Rubik's Cube derrived from Herbert Kociemba two-phase algorithm
+This rubik's cube solver is a Rubik's Cube Solver that solves any valid colouring of a Rubik's Cube.
+It is derrived from Herbert Kociemba two-phase algorithm
 https://github.com/muodov/kociemba
 
 It constains one .cpp file rubikssolver.cpp and header files.
