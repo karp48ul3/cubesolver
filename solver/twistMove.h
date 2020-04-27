@@ -1,6 +1,4 @@
-//
-// Created by akami on 31.03.2020.
-//
+
 
 #ifndef RUBIKSCUBE_TWISTMOVE_H
 #define RUBIKSCUBE_TWISTMOVE_H

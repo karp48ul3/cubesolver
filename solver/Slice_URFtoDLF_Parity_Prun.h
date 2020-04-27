@@ -1,6 +1,4 @@
-//
-// Created by akami on 31.03.2020.
-//
+
 
 #ifndef RUBIKSCUBE_SLICE_URFTODLF_PARITY_PRUN_H
 #define RUBIKSCUBE_SLICE_URFTODLF_PARITY_PRUN_H

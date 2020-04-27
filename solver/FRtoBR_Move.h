@@ -1,6 +1,4 @@
-//
-// Created by akami on 31.03.2020.
-//
+
 
 #ifndef RUBIKSCUBE_FRTOBR_MOVE_H
 #define RUBIKSCUBE_FRTOBR_MOVE_H

@@ -1,6 +1,3 @@
-//
-// Created by akami on 31.03.2020.
-//
 
 #ifndef RUBIKSCUBE_FLIPMOVE_H
 #define RUBIKSCUBE_FLIPMOVE_H
