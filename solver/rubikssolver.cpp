@@ -1,5 +1,4 @@
 
-
 #include <string.h>
 #include <stdlib.h>
 #include <Slice_Flip_Prun.h>
@@ -411,7 +410,7 @@ typedef struct {
     int URtoDF;
 } coordcube_t;
 
-facecube_t* get_facecube_fromstring(int* cube_colors)
+facecube_t* get_facecube_fromstring(char* cube_colors)
 {
     int i;
     facecube_t* res = (facecube_t *) calloc(1, sizeof(facecube_t));
@@ -848,11 +847,10 @@ char* solutionToString(search_t* search, int length, int depthPhase1)
     return s;
 }
 
-int* solvecube(int* cube_colors, long ptimeout, int pmaxdepth)
+int* solvecube(char* cube_colors, long ptimeout, int pmaxdepth)
 {
-	long timeOut = ptimeout;
+    long timeOut = ptimeout;
     int maxDepth = pmaxdepth;
-	
     search_t* search = (search_t*) calloc(1, sizeof(search_t));
     facecube_t* fc;
     cubiecube_t* cc;
@@ -864,7 +862,7 @@ int* solvecube(int* cube_colors, long ptimeout, int pmaxdepth)
     int depthPhase1;
     time_t tStart;
 
-    int int_cube_colors[54];
+    char int_cube_colors[54];
 
 
 
