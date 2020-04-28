@@ -38,8 +38,6 @@ L' : 1,
 B' : 7
 For U2, R2, F2, D2, L2, B2 moves, they now become two moves i.e. U2 becomes U,U.
 
-Increased timeout to 5 seconds and maxdepth to 24.
-
 Used casts (short) and (int) to resolve compiler errors.
 
 ## Usage
