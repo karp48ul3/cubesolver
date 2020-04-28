@@ -7,9 +7,10 @@ https://github.com/muodov/kociemba
 It constains one .cpp file rubikssolver.cpp and header files.
 
 rubikssolver.cpp has two main functions:
- - void initarrays()
- - int* solvecube(int*)
- 
+```
+   void initarrays()
+   int* solvecube(int*, long, int)
+```
 ## Changes
 
 Moved logic to one .cpp file
@@ -18,7 +19,8 @@ Used Initialised arrays for pruning and move tables.
 The only arrays that are initialise by initarrays() method are
 URFtoDLF_Move and URtoDF_Move.
 
-Parameters to  int* solvecube(int*) function is now int[54] array (values from 0 to 5 corresponding to 6 faces colours) instead of char sequence.
+Parameters to  `int* solvecube(int*)` function is now int[54] array (values from 0 to 5 corresponding to 6 faces colours) instead of char sequence.
+Second parameter is timeout value and third is maximum depth.
 This function returns pointer to array with rotations represented by int elements.
 
 The rotations correspond to following int values:
