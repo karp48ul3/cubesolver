@@ -46,6 +46,6 @@ Used casts (short) and (int) to resolve compiler errors.
 
 There is no main() function in this project.
 
-To use it there should be created a wrapper (i.e. main function that first calls initarrays() and then solvecube(int*))
+To use it there should be created a wrapper (i.e. main function that first calls initarrays() and then solvecube(char*, long, int))
 
 
