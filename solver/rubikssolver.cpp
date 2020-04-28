@@ -848,8 +848,11 @@ char* solutionToString(search_t* search, int length, int depthPhase1)
     return s;
 }
 
-int* solvecube(int* cube_colors)
+int* solvecube(int* cube_colors, long ptimeout, int pmaxdepth)
 {
+	long timeOut = ptimeout;
+    int maxDepth = pmaxdepth;
+	
     search_t* search = (search_t*) calloc(1, sizeof(search_t));
     facecube_t* fc;
     cubiecube_t* cc;
@@ -899,8 +902,6 @@ int* solvecube(int* cube_colors)
     busy = 0;
     depthPhase1 = 1;
 
-    long timeOut = 5000l;
-    int maxDepth = 24;
     int useSeparator = 0;
     char* res;
 
