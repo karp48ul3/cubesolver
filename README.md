@@ -1,12 +1,12 @@
-# rubikssolver
+# cubesolver
 
-This rubik's cube solver is a Rubik's Cube Solver that solves any valid colouring of a Rubik's Cube.
+This cube solver is a Cube Solver that solves any valid colouring of a Cube.
 It is derrived from Herbert Kociemba two-phase algorithm
 https://github.com/muodov/kociemba
 
-It constains one .cpp file rubikssolver.cpp and header files.
+It constains one .cpp file cubesolver.cpp and header files.
 
-rubikssolver.cpp has two main functions:
+cubesolver.cpp has two main functions:
 ```
    void initarrays()
    int* solvecube(char*, long, int)
